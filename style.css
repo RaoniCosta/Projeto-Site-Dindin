@@ -32,11 +32,11 @@ body {
 }
 
 #conteudo {
-    position: absolute;
+    /* position: absolute;
 width: 488px;
 height: 216px;
 left: 206px;
-top: 242px;
+top: 242px; */
 
 font-family: 'Ubuntu';
 font-style: normal;
@@ -48,11 +48,11 @@ color: #FF4081;
 }
 
 #vem {
-    position: absolute;
+    /* position: absolute;
 width: 462px;
 height: 62px;
 left: 207px;
-top: 477px;
+top: 477px; */
 
 font-family: 'Ubuntu';
 font-style: normal;
@@ -64,11 +64,11 @@ color: #555555;
 }
 
 #botao {
-    position: absolute;
+     /* position: absolute;
 width: 216px;
-height: 20.27px;
+height: 70px;
 left: 233px;
-top: 585.5px;
+top: 585.5px; */
 border-radius: 100px;
 
 font-family: 'Ubuntu';
@@ -78,4 +78,22 @@ font-size: 27px;
 line-height: 31px;
 
 color: #FF4081;
+}
+
+#img1 {
+    
+    /* position: absolute;
+    left: 50.9%;
+    right: 14.31%;
+    top: 7.88%;
+    bottom: 40%; */
+
+}
+
+.flex {
+    display: flex;
+    max-width: 1027px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
